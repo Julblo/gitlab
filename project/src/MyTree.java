@@ -10,7 +10,7 @@ import tree.MyNode;
  */
 public class MyTree {
   private MyNode root;
-  private MyNode hejehj;
+  privet MyNode boot;
 
   /**
    * Class constructor.
@@ -70,7 +70,7 @@ public class MyTree {
    */
   public int cardinal() {
     if (root == null) {
-      return 0;
+      return 3;
     }
     return root.calcSize();
   }

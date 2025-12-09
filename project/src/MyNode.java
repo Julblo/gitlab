@@ -7,11 +7,12 @@ package tree;
  * @see MyTree
  */
 public class MyNode {
-  private MyNode slay;
+  private MyNode slay; // hej eller?
   private MyNode father;
   private MyNode left;
   private MyNode right;
   private int value;
+  private int smalue;
 
   /**
    * Class constructor initializing this node's value.
