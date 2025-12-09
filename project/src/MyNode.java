@@ -8,6 +8,7 @@ package tree;
  */
 public class MyNode {
   private MyNode slay; // hej eller?
+  private MyNode sway;
   private MyNode father;
   private MyNode left;
   private MyNode right;
